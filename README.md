@@ -3,7 +3,7 @@
 A Model Context Protocol (MCP) server that connects [Google Search Console](https://search.google.com/search-console/about) (GSC) to AI assistants, allowing you to analyze your SEO data through natural language conversations. Works with **Claude Desktop**, **Cursor**, **Codex CLI**, **Gemini CLI**, **Antigravity**, and any other MCP-compatible client.
 
 > **Prefer zero setup?** There's also a hosted version of this MCP server with one-click Google sign-in, no Python, no terminal, and added GA4 tools — works in Claude.ai, ChatGPT, Cursor, Claude Desktop, and any MCP client.
-> → [**Advanced GSC MCP (hosted)**](https://www.advancedgsc.com/mcp) · starts at $12/mo during the founding cohort.
+> → [**Advanced GSC MCP (hosted)**](https://www.advancedgsc.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=mcp-gsc&utm_content=hero-callout) · starts at $12/mo during the founding cohort.
 
 ---
 
@@ -66,10 +66,9 @@ A Model Context Protocol (MCP) server that connects [Google Search Console](http
 ---
 
 <div align="center">
-  <a href="https://www.advancedgsc.com/mcp">
+  <a href="https://www.advancedgsc.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=mcp-gsc&utm_content=banner">
     <img src="assets/mcp-banner.jpg" alt="Skip setup — try the hosted MCP server with one-click Google sign-in. Works in ChatGPT and Claude web. Includes GA4 and advanced SEO tools." width="800" style="margin: 20px 0; border-radius: 8px;">
   </a>
-  <p><sub>Open source version stays free and fully supported.</sub></p>
 </div>
 
 ---
@@ -99,7 +98,7 @@ On first use, a browser window will open asking you to sign in to your Google ac
 5. Save the file somewhere permanent (e.g. `~/Documents/service_account.json`)
 6. Add the service account email to your GSC property: Search Console → Settings → Users and permissions → Add user → Full access
 
-**Watch the step-by-step setup tutorial for this section:**
+#### 🎥 Watch the step-by-step setup tutorial for this section
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=vhIOoD7B8Ow">
@@ -440,7 +439,7 @@ docker run \
 
 ## Related Tools
 
-**[Advanced GSC Visualizer](https://www.advancedgsc.com/)** — A Chrome extension (14,000+ users) with interactive charts, one-click export of up to 25,000 rows, keyword cannibalization detection, and an AI assistant — all directly inside Google Search Console. Built by the same author. [Install from the Chrome Web Store →](https://chromewebstore.google.com/detail/advanced-gsc-visualizer/cdiccpnglfpnclonhpchpaaoigfpieel)
+**[Advanced GSC Visualizer](https://www.advancedgsc.com/?utm_source=github&utm_medium=readme&utm_campaign=mcp-gsc&utm_content=related-tools)** — A Chrome extension (14,000+ users) with interactive charts, one-click export of up to 25,000 rows, keyword cannibalization detection, and an AI assistant — all directly inside Google Search Console. Built by the same author. [Install from the Chrome Web Store →](https://chromewebstore.google.com/detail/advanced-gsc-visualizer/cdiccpnglfpnclonhpchpaaoigfpieel)
 
 ---
 
