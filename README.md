@@ -65,6 +65,15 @@ A Model Context Protocol (MCP) server that connects [Google Search Console](http
 
 ---
 
+<div align="center">
+  <a href="https://www.advancedgsc.com/mcp">
+    <img src="assets/mcp-banner.jpg" alt="Skip setup — try the hosted MCP server with one-click Google sign-in. Works in ChatGPT and Claude web. Includes GA4 and advanced SEO tools." width="800" style="margin: 20px 0; border-radius: 8px;">
+  </a>
+  <p><sub>Open source version stays free and fully supported.</sub></p>
+</div>
+
+---
+
 ## Getting Started
 
 ### Step 1 — Set Up Google API Credentials
