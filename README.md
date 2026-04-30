@@ -2,6 +2,9 @@
 
 A Model Context Protocol (MCP) server that connects [Google Search Console](https://search.google.com/search-console/about) (GSC) to AI assistants, allowing you to analyze your SEO data through natural language conversations. Works with **Claude Desktop**, **Cursor**, **Codex CLI**, **Gemini CLI**, **Antigravity**, and any other MCP-compatible client.
 
+> **Prefer zero setup?** There's also a hosted version of this MCP server with one-click Google sign-in, no Python, no terminal, and added GA4 tools — works in Claude.ai, ChatGPT, Cursor, Claude Desktop, and any MCP client.
+> → [**Advanced GSC MCP (hosted)**](https://www.advancedgsc.com/mcp) · starts at $12/mo during the founding cohort.
+
 ---
 
 ## What's New
