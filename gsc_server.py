@@ -1658,6 +1658,8 @@ async def reauthenticate() -> str:
 
 def main():
     """Entry point for the MCP server. Supports stdio (default), SSE, and streamable-HTTP transports."""
+    from mcp.server.transport_security import TransportSecuritySettings
+
     transport = os.environ.get("MCP_TRANSPORT", "stdio").lower()
     host = os.environ.get("MCP_HOST", "127.0.0.1")
     try:
@@ -1667,14 +1669,13 @@ def main():
 
     if transport == "stdio":
         mcp.run(transport="stdio")
-    elif transport == "sse":
+    elif transport in ("sse", "http"):
         mcp.settings.host = host
         mcp.settings.port = port
-        mcp.run(transport="sse")
-    elif transport == "http":
-        mcp.settings.host = host
-        mcp.settings.port = port
-        mcp.run(transport="streamable-http")
+        mcp.settings.transport_security = TransportSecuritySettings(
+            enable_dns_rebinding_protection=False,
+        )
+        mcp.run(transport="sse" if transport == "sse" else "streamable-http")
     else:
         raise ValueError(
             f"Unknown MCP_TRANSPORT '{transport}'. "
